@@ -14,7 +14,8 @@ This code acts as a baseline for the project's other models to be measured again
 <strong> Usage: </strong>
 1) Place all the desired .cxml files, from the GROTOAP directories, in a folder
 2) Provide that folder's path, along with the desired target file path to the python file feature_preprocessing: </br>
-    $ python feature_preprocessing.py cxml_directory_path target_libsvm_file_path
+    $ python feature_preprocessing.py cxml_directory_path target_libsvm_file_path </br>
+    This step creates temporary pickle files for processing. The path for these pickle files are present in the Constants.py file with the variable names features_data_pickle_file_name, and features_labels_pickle_file_name. These need to be modified by the user as desired.
 3) Once the features for the desired train, and test directories have been created in libsvm files, provide them to the logistic_regression file for training, testing, and metrics to be presented: </br>
     $ python logistic_regression.py train_libsvm_feature_path test_libsvm_feature_path
 
