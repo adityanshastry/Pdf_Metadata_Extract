@@ -1,13 +1,13 @@
 # pdf_metadata_extract
-Extraction of metadata objects (Title, Author, Abstract, Affiliations) from pdf research papers. This code is part of an independent study for the Spring 2017 semester.  Its members are:
-1) Akul Siddalingaswamy - @akuls
-2) Aditya Narasimha Shastry - @adityanshastry
+The objective of the project is to be able to identify and extract metadata objects, namely Title, Authors, Affiliations, and Abstract, from a pdf research paper, specifically medical research papers. This code is part of an independent study project for the Spring 2017 semester.  Its members are:
+1) Akul Siddalingaswamy - https://github.com/akuls/
+2) Aditya Narasimha Shastry - https://github.com/adityanshastry/
 
-The objective of the project is to be able to identify and extract metadata objects from a pdf research paper, specifically medical research papers. This project was completed with mentorship from:
+This project was completed with mentorship from:
 1) Dr. Shankar Vembu - Chan Zuckerberg Initiative
 2) Prof. Andrew McCallum - University of Massachusetts, Amherst
 
-This code acts as a baseline for the process' other models to be measured against. It reads the data represented in Truviz XML format, obtained from http://cermine.ceon.pl/grotoap2/. 
+This code acts as a baseline for the project's other models to be measured against. It reads the data represented in Truviz XML format, obtained from http://cermine.ceon.pl/grotoap2/. 
 
 Usage:
 1) Place all the desired .cxml files, from the GROTOAP directories, in a folder
