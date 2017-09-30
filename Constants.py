@@ -20,7 +20,7 @@ features_data_pickle_file_name = "/mnt/nfs/work1/mccallum/ashastry/data/train_fe
 features_labels_pickle_file_name = "/mnt/nfs/work1/mccallum/ashastry/data/train_features/labels.p"
 
 others_class = 'others'
-header_classes = ['abstract', 'affiliation', 'author', 'title', 'author_title', 'others']
+header_classes = ['abstract', 'affiliation', 'author', 'title', 'author_title']
 
 features_per_token = 22
 number_bins = 4
